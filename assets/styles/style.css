@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Harry Potter";
+  src: url(../fonts/Harry_Potter_Russian_version_of_Gfdtk.ttf)
+    format("truetype");
+  /* font-weight: normal;
+  font-style: normal; */
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #292b46;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Harry Potter";
+  font-size: 30px;
+}
+nav {
+  min-width: 90%;
+}
+.title {
+  font-family: "Harry Potter";
+  text-align: center;
+  font-size: 80px;
+  color: #1a1914;
+}
+.root {
+  background-color: rgba(57, 129, 69, 0.336);
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+img {
+  min-height: 30px;
+  min-width: 32%;
+}
+img {
+  border-radius: 30px;
+  transition: 1s;
+  display: block;
+}
+img:hover {
+  transform: scale(1.1);
+}
